@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Location Monitor</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="shell wide">
+    <section class="card glass">
+      <h1>Live Location Monitor</h1>
+      <p class="muted">Auto-refresh every 3 seconds.</p>
+      <div class="admin-actions">
+        <button id="deleteAllBtn" class="danger-btn">Delete All Records</button>
+      </div>
+      <div id="serverTime" class="small muted"></div>
+      <div id="sessions" class="session-grid"></div>
+    </section>
+  </main>
+
+  <script src="/static/admin.js"></script>
+</body>
+</html>
