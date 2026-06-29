@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: india-today-live-2026
+    name: india-today-live-20261
     env: python
     plan: free
     buildCommand: pip install -r requirements.txt
